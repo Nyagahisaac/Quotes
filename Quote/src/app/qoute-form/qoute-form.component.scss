@@ -23,6 +23,11 @@
             font-size: 20px;
             font-weight: 900;
         }
+        input,
+        textarea{
+        box-shadow:0px 0px 15px  rgba(0, 0, 0, 0.25) ;
+
+        }
         button{
             font-family: 'Saira Condensed', sans-serif;
             margin-top: 20px;
