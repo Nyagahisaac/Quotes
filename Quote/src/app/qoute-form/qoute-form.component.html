@@ -4,9 +4,7 @@
         <div class="modal-body">
             <div class="form-group">
                  <label class="control-label">Title</label>
-
-
-                <input type="text" [(ngModel)] = "newQuote.title" #title='ngModel' name="title" id="" class="form-control" required>
+                  <input type="text" [(ngModel)] = "newQuote.title" #title='ngModel' name="title" id="" class="form-control" required>
                 <div [hidden] = "title.valid || title.pristine" class="alert alert-danger p-0 text-center">
                     <p>Title is required</p>
                 </div>
