@@ -2,26 +2,18 @@
 <div class="row">
     <div class="col-md-4">
         <div class="container">
-            <app-qoute-form (addQuote) = "addNewQuote($event)"></app-qoute-form>
-         </div>
+            <app-qoute-form (addQuote)="addNewQuote($event)"></app-qoute-form>
+        </div>
     </div>
     <div class="col-md-8">
         <div class="container">
-            <div class="card alert alert-info m-2" *ngFor = 'let quote of quotes;let i = index'>
+            <div class="card alert alert-info m-2" *ngFor='let quote of quotes;let i = index'>
                 <div class="card-body">
-                     <small>{{quote.date}} ~ {{quote.title}}</small> <br>
-                     <button (click) = 'toggleDetails(i)' class="btn btn-outline-success">Show Quote</button>
-                      <app-quote-detail *ngIf = 'quote.displayDescription' [quote] = 'quote'  (isDelete) = 'deleteQuote($event,i)'></app-quote-detail>
-
-
-
-
-
-
-
+                    <small>{{quote.date}} ~ {{quote.title}}</small> <br>
+                    <button (click)='toggleDetails(i)' class="btn btn-outline-success">Show Quote</button>
+                    <app-quote-detail *ngIf='quote.displayDescription' [quote]='quote'
+                        (isDelete)='deleteQuote($event,i)'></app-quote-detail>
                     <span class="float-right">{{quote.author}}</span>
-                    
-                    
                 </div>
             </div>
         </div>
