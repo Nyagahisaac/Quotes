@@ -9,15 +9,16 @@ export class QuoteDetailComponent implements OnInit {
   @Input()
   quote!: Quote;
   @Output() isDelete = new EventEmitter <boolean>();
+  @Output() isUpvote = new EventEmitter <boolean>();
   quoteDelete(deleteIs : boolean){
     this.isDelete.emit(deleteIs);
   }
-  upvote(){
-    this.quote.upvote=+1;
+  upvote(upvoteIs :boolean){
+    this.isUpvote.emit(upvoteIs);
+    
   }
-  downvote(){
-    this.quote.downvote=+1;
-  }
+
+ 
   constructor() { }
 
   ngOnInit(): void {

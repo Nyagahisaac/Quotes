@@ -12,7 +12,7 @@
                     <small>{{quote.date}} ~ {{quote.title}}</small> <br>
                     <button (click)='toggleDetails(i)' class="btn btn-outline-success">Show Quote</button>
                     <app-quote-detail *ngIf='quote.displayDescription' [quote]='quote'
-                        (isDelete)='deleteQuote($event,i)'></app-quote-detail>
+                        (isDelete)='deleteQuote($event,i)' (isUpvote)='addUpvote($event,i)'></app-quote-detail>
                     <span class="float-right">{{quote.author}}</span>
                 </div>
             </div>

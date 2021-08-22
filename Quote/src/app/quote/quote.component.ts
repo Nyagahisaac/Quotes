@@ -24,6 +24,21 @@ export class QuoteComponent implements OnInit {
       }
     }
   }
+  addUpvote(isUpvote:any,index:any){
+    if(isUpvote){
+      let toUpvote = confirm ('Confirm you want to like this quote ?');
+      if (toUpvote){
+        // console.log(this.quotes[index]);
+        this.quotes[index].upvote +=1;
+      }
+    }else{
+      let toDownvote = confirm ('Confirm you want to down vote this quote ?');
+      if (toDownvote){
+        console.log( this.quotes[index])
+        this.quotes[index].downvote +=1;
+      }
+    }
+  }
   addNewQuote(quote: any) {
     quote.id = this.quotes.length + 1;
     this.quotes.push(quote);
