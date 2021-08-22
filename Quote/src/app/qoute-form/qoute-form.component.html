@@ -2,11 +2,11 @@
     <div class="alert alert-primary text-center header">~Add Quote!~</div>
     <form (ngSubmit)='submitQuote()' #quoteform='ngForm'>
         <div class="modal-header">
-            <button type="reset" class="btn btn-outline-danger float-right " style="float: right; border-radius: 20px;">Reset</button>
+            <button type="reset" class="btn btn-outline-danger float-right "
+                style="float: right; border-radius: 20px;">Reset</button>
         </div>
         <div class="modal-body">
             <div class="form-group">
-
                 <label class="control-label">Title</label>
                 <input type="text" [(ngModel)]="newQuote.title" #title='ngModel' name="title" id="" class="form-control"
                     required>
