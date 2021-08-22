@@ -32,16 +32,6 @@ export class QuoteComponent implements OnInit{
 
   ngOnInit(): void {
   }
-
-  // ngAfterViewInit(): void {
-  //   console.log(this.addQuote);
-
-  // }
-  // onKey(event: any) { // without type info
-  //   console.log("This is input->"+this.addQuote);
-  // }
-
-
 }
 function submitQuote() {
   throw new Error('Function not implemented.');
