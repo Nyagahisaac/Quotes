@@ -11,13 +11,7 @@
                 <div class="card-body">
                      <small>{{quote.date}} ~ {{quote.title}}</small> <br>
                      <button (click) = 'toggleDetails(i)' class="btn btn-outline-success">Show Quote</button>
-
-
-
-
-
-
-                    <app-quote-detail *ngIf = 'quote.displayDescription' [quote] = 'quote'  (isDelete) = 'deleteQuote($event,i)'></app-quote-detail>
+                      <app-quote-detail *ngIf = 'quote.displayDescription' [quote] = 'quote'  (isDelete) = 'deleteQuote($event,i)'></app-quote-detail>
 
 
 
