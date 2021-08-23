@@ -5,7 +5,7 @@
 
 ## Brief Description
 
-QuotesNest is an application that allows users to add, delete, upvote and downvote quotes.<br>
+Tech Quotes is an application that allows users to add, delete, upvote and downvote quotes.<br>
 The user provides the quote, author, and the individual who submitted the quote while creating a quote.<br>
 Upvoting the quotes is done by clicking the button labelled 'upvote'. <br>
 Downvoting the quotes is done by clicking the button labelled 'Downvote'.<br> 
@@ -26,7 +26,7 @@ The main functionalities are:<br>
 
 To start using this project:
 
-* `git clone https://github.com/kelvinMakamu/quotesNest.git`
+* `git clone https://github.com/Nyagahisaac/quotes.git`
 * `cd quotes`
 * `npm install `
 * `ng serve` Navigate to `http://localhost:4200/`
@@ -37,7 +37,7 @@ Run `ng build` to build the project. The build artifacts will be stored in the `
 
 ## Running unit tests
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Run `ng test` to execute the unit tests via [Karma](https://nyagahisaac.github.io/Quote../).
 
 ## Running end-to-end tests
 
@@ -53,7 +53,7 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 
 ## Live Application
 
-* [QuotesNest- GitHub Pages]()
+* [Quotes- GitHub Pages](https://nyagahisaac.github.io/Quote../)
 
 ## Contact Information
 
