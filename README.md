@@ -9,6 +9,9 @@
 * 
 ## Brief Description
 
+Tech Quotes is an application that allows users to add, delete, upvote and downvote quotes.
+
+## Depedencies
 Tech Quotes is an application that allows users to add, delete, upvote and downvote quotes.<br>
 The user provides the quote, author, and the individual who submitted the quote while creating a quote.<br>
 Upvoting the quotes is done by clicking the button labelled Icon like('upvote'). <br>
