@@ -11,9 +11,9 @@
 
 Tech Quotes is an application that allows users to add, delete, upvote and downvote quotes.<br>
 The user provides the quote, author, and the individual who submitted the quote while creating a quote.<br>
-Upvoting the quotes is done by clicking the button labelled 'upvote'. <br>
-Downvoting the quotes is done by clicking the button labelled 'Downvote'.<br> 
-The quote that is the most upvoted is highlighted with a background colour of cyan.<br>
+Upvoting the quotes is done by clicking the button labelled Icon like('upvote'). <br>
+Downvoting the quotes is done by clicking the button labelled Icon dislike ('Downvote').<br> 
+The quote that is the most upvoted is highlighted with a background colour of primary('blue').<br>
 
 The main functionalities are:<br>
 * Create a new quote
@@ -48,6 +48,7 @@ To start using this project:
 ## Contact Information
 
 * [Nyagah Isaac](mailto:nyagahisaac21@gmail.com?subject=[GitHub]%20Private%20and%20Confidential)
+* [nyagahisaac21@gmail.com].
 
 ## License And Copyright Information
 
