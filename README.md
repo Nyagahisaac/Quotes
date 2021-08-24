@@ -3,6 +3,10 @@
 
 # Quote
 
+## Authors 
+
+* [Nyagah Isaac]
+* 
 ## Brief Description
 
 Tech Quotes is an application that allows users to add, delete, upvote and downvote quotes.<br>
@@ -18,9 +22,7 @@ The main functionalities are:<br>
 * Delete a quote
 * Viewing the number of upvotes/downvotes for each quote.
 
-## Authors 
 
-* [Nyagah Isaac]()
 
 ## Set Up Instructions 
 
@@ -31,22 +33,10 @@ To start using this project:
 * `npm install `
 * `ng serve` Navigate to `http://localhost:4200/`
 
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://nyagahisaac.github.io/Quote../).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
 ## Technologies Used
 
 * HTML5
-* CSS3
+* SCSS3
 * Bootstrap
 * TypeScript
 * GIT
